@@ -1,0 +1,45 @@
+.ingredients-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+h2 {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.essential {
+    margin-left: 250px;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+.essential:hover {
+    color: darkorange;
+}
+
+.important {
+    color: crimson;
+    margin-left: 550px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+.important:hover {
+    background: radial-gradient(circle, darkcyan, darkgrey);
+}
+
+.note {
+    color: blanchedalmond;
+}
+
+.warning {
+    color: cornflowerblue;
+}
